@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  width: 100%;
+  position: absolute;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  flex: 1;
+  position: fixed;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+nav a {
+  padding-right: 40px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Main-Container */
+
+.main-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Main-body */
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#themission,
+#thetea,
+#thelocations {
+  width: 1200px;
+  height: 700px;
+  background-color: black;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  flex: 2;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.mission-txt {
+  background-color: black;
+  margin-top: 300px;
+}
+/* Tea */
+
+.tea-of-month {
+  flex: 2;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tea-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#box {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+/* Locations */
+
+.locations {
+  margin-top: 80px;
+  flex: 1;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+}
+
+.pleaseflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.location-txt h2 {
+  margin-top: 30px;
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px 0 40px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+
+
+/* Footer */
+
+.footer div {
+  height: 200px;
+  text-align: center;
+}
+
+ .foot {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+
+.pleaseflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
